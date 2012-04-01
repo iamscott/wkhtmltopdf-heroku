@@ -1,7 +1,7 @@
 if RUBY_PLATFORM =~ /linux/
   WKHTMLTOPDF_PATH = File.expand_path "../../bin/wkhtmltopdf-linux-amd64", __FILE__
 elsif RUBY_PLATFORM =~ /darwin/
-  WKHTMLTOPDF_PATH = File.expand_path= File.expand_path "../../bin/wkhtmltopdf-darwin-386", __FILE__
+  WKHTMLTOPDF_PATH = File.expand_path "../../bin/wkhtmltopdf-darwin-386", __FILE__
 end
 
 begin
